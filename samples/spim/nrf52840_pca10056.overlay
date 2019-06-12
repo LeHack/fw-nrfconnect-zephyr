@@ -1,0 +1,9 @@
+
+&spi3 {
+	/* Cannot be used together with i2c0. */
+	/* status = "ok"; */
+	sck-pin = <47>;
+	mosi-pin = <45>;
+};
+
+
