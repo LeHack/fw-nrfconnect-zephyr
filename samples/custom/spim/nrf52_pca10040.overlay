@@ -1,0 +1,7 @@
+
+&spi2 {
+    /* Cannot be used together with i2c0. */
+    sck-pin = <25>;
+    mosi-pin = <23>;
+    miso-pin = <17>;
+};
